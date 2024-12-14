@@ -8,6 +8,11 @@
   position: relative;
 }
 
+.link:hover .btn:hover {
+  border-color: lightblue;
+  color: lightblue;
+}
+
 .link:hover {
   transform: scale(1.07);
 }

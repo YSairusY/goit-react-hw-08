@@ -8,8 +8,11 @@
   position: relative;
 }
 
-.link:hover {
+.link:hover,
+.btn:hover {
   transform: scale(1.07);
+  border-color: lightblue;
+  color: lightblue;
 }
 
 .link.active .btn {
@@ -19,4 +22,9 @@
   border: 2px solid white;
   color: white;
   font-weight: 700;
+}
+
+.link.active .btn:hover {
+  border-color: lightblue;
+  color: lightblue;
 }

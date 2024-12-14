@@ -31,6 +31,12 @@ input {
   cursor: pointer;
 }
 
+.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  color: lightgreen;
+}
+
 .input-error {
   border: 2px solid darkred;
   background-color: #ffdddd;

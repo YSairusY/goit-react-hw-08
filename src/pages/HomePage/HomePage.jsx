@@ -6,10 +6,10 @@ const HomePage = () => {
   return (
     <div className={s.container}>
       <DocumentTitle>Home</DocumentTitle>
-      <h1 className={s.title}>Welcome to Your Personal Contact Book!</h1>
+      <h1 className={s.title}>Welcome to Personal Contact Book!</h1>
       <p className={s.paragraph}>
-        Sign up to get started! A secure and simple way to store, manage, and
-        access your contacts in one place.
+        Sign up to get started! A simple way to store, manage, and access your
+        contacts in one place.
       </p>
     </div>
   );
