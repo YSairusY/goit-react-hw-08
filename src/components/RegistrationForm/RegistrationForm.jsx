@@ -23,12 +23,17 @@ const RegistrationForm = () => {
   const passwordFieldId = useId();
   const navigate = useNavigate();
 
+  const re =
+    /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+
   const FeedbackSchema = Yup.object().shape({
     name: Yup.string()
       .min(2, 'Too short!')
       .max(50, 'Too Long!')
       .required('Required'),
-    email: Yup.string().email('Must be a valid email!').required('Required'),
+    email: Yup.string()
+      .matches(re, 'Must be a valid email!')
+      .required('Required'),
     password: Yup.string()
       .min(8, 'Password must be at least 8 characters!')
       .matches(/[A-Z]/, 'Password must contain at least one uppercase letter!')
