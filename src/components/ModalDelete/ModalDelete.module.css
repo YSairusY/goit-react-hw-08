@@ -45,6 +45,11 @@
   padding: 6px;
 }
 
+.confirmBtn:hover,
+.cancelBtn:hover {
+  transform: scale(1.07);
+}
+
 .cancelBtn {
   color: black;
   background-color: white;

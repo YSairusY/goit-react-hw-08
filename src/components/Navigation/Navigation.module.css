@@ -2,26 +2,21 @@
   display: inline-block;
   text-decoration: none;
   padding: 12px;
-  font-weight: 700;
+  font-weight: 750;
   color: white;
   transition: transform 0.3s ease;
   position: relative;
 }
 
-.link:hover .btn:hover {
-  border-color: lightblue;
-  color: lightblue;
-}
-
 .link:hover {
   transform: scale(1.07);
+  color: lightblue;
 }
 
 .link.active .btn {
   background-color: transparent;
   border-radius: 5px;
   padding: 4px;
-  border: 2px solid white;
-  color: white;
+  color: lightblue;
   font-weight: 700;
 }
