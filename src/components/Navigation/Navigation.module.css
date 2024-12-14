@@ -1,0 +1,22 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: white;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.link:hover {
+  transform: scale(1.07);
+}
+
+.link.active .btn {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 4px;
+  border: 2px solid white;
+  color: white;
+  font-weight: 700;
+}

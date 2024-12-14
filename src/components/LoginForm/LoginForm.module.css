@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  min-height: 100vh;
+}
+
+.form {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.label {
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.btn {
+  padding: 6px;
+  color: white;
+  background-color: rgb(23, 21, 21);
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.input-error {
+  border: 2px solid darkred;
+  background-color: #ffdddd;
+}
+
+.error-message {
+  color: darkred;
+  font-size: 0.875rem;
+  margin-top: -16px;
+}
+
+.passwordIcon {
+  color: black;
+}
+
+.passwordWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.passwordWrapper input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.passwordIcon {
+  position: absolute;
+  right: 10px;
+  color: rgb(92, 83, 83);
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-70%);
+}

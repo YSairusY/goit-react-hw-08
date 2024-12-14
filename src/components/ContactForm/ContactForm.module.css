@@ -1,0 +1,50 @@
+.form {
+  border-radius: 5px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 8px;
+  margin-bottom: 15px;
+  width: 320px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100px;
+  padding: 6px;
+  color: white;
+  background-color: rgb(23, 21, 21);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.search_lines {
+  padding-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.title {
+  color: white;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 5px;
+}
